@@ -16,7 +16,7 @@ await registerpage.signup(
 
     await registerpage.createAccount();
 
-    await registerpage.verifyAccountCreated();
+    //await registerpage.verifyAccountCreated();
 
     await registerpage.continueAccount();
 

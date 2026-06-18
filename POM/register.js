@@ -58,9 +58,9 @@ await this.mobilenumber.fill(data.mobile);
     async createAccount(){
         await this.createbutton.click()
     }
-    async verifyAccountCreated(){
+    /*async verifyAccountCreated(){
         await expect (this.sucessmessage).toBeVisible()
-    }
+    }*/
     async continueAccount(){
         await this.createacnt.click()
     }

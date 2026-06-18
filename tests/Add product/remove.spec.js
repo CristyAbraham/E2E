@@ -1,6 +1,6 @@
 
 import { test, expect } from '@playwright/test';
-test.only('remove products',async({page})=>{
+test('remove products',async({page})=>{
 await page.goto("https://automationexercise.com/signup")
     await page.locator("//input[@data-qa='login-email']").fill('ira@mailinator.com')
     await page.locator("//input[@placeholder='Password']").fill("Ira@123")
