@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import logindata from '../../Testdata/logindata.json'
-import Loginpage from '../../POM/Loginpage.js';
+import Loginpage from '../../POM/loginpage.js';
 import invalid_login from '../../Testdata/invalidlogindata.json'
 
 test('existing user loginlogout',async({page})=>{
