@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import {search} from '../../POM/search.js'
 import searchData from '../../Testdata/searchdata.json'
-import Loginpage from '../../POM/Loginpage.js'
+import Loginpage from '../../POM/loginpage.js'
 import logindata from '../../Testdata/logindata.json'
 test.beforeEach(async({page})=>{
 const loginPage=new Loginpage(page)
